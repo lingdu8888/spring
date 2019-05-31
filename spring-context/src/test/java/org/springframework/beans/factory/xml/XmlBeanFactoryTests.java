@@ -166,6 +166,7 @@ public class XmlBeanFactoryTests {
 		assertThat(davesJen == jen).as("1 jen instance").isTrue();
 	}
 
+
 	@Test
 	public void testInnerBeans() throws IOException {
 		DefaultListableBeanFactory xbf = new DefaultListableBeanFactory();
